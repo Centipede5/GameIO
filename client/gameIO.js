@@ -899,7 +899,7 @@ function gameIO() {
     }
   };
 	game.addPacketType = function( type, func ) {
-		game.packetTypes[ type ] = func;
+		game.packetFunctions[ type ] = func;
 	}
   game.types = [];
   game.objects = [];
